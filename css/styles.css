@@ -1,0 +1,48 @@
+.container {
+	width: 100%;
+	background-color: #e6e1e1;
+	padding: 20px 0;
+}
+.form-container{
+	margin: 0 auto;
+	min-height: 20px;
+	width: 500px;
+}
+
+.btn-submit{
+
+	width: 100%;
+	background-color:yellow;
+	color: black;
+	border:1px solid;
+	margin: 10px;
+}
+
+body{
+background-color: #e6e1e1;
+}
+
+.error {
+	background: red;
+    padding: 10px;
+    color: #fff;
+
+}
+.reg{
+	width: 100%;
+    padding: 70px 0;
+    background-color: #e6e1e1;
+}
+.form-reg{
+	margin: 0 auto;
+    min-height: 10px;
+    width: 502px;
+    border: 1px solid black;
+    padding: 35px;
+}
+.btn-reg{
+    width: 96%;
+    background-color: #a7a7ef;
+    border: 3px solid lightgoldenrodyellow;
+    margin: 0px;
+}
