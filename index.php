@@ -17,7 +17,7 @@ if (isset($_SESSION['name'])){
 <body>
 
 <ul>
-	<li><a href = "register.php">Register</a></li>
+	<li><a href = "register.php">Register Test</a></li>
 </ul>
 
 <div class="container">
