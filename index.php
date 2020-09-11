@@ -11,13 +11,23 @@ if (isset($_SESSION['name'])){
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="/suju_labs/fashion_store/css/styles.css">
+	<link rel="stylesheet" href="/fashion-store/css/styles.css">
 	<title>Login | Sujata Fashion Store</title>
+	<style >
+a{
+	margin: 128px;
+    padding: 19px 85px 19px 85px;
+    width: 100%;
+    border: 3px solid black;
+    background-color: #00bcd421;
+    border-radius: 10px;
+}		
+	</style>
 </head>
 <body>
 
 <ul>
-	<li><a href = "register.php">Register</a></li>
+	<li><a href = "register.php">Register Test</a></li>
 </ul>
 
 <div class="container">
