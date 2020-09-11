@@ -31,6 +31,13 @@ function getProducts($conn)
 
 	<p>Your email is <?php echo ($_SESSION['email']); ?></p>
 
+	<?php
+	if (isset($_SESSION['product-error'])) {
+	?>
+		<p class="error">Your product was not registered !! try again</p>
+	<?php }
+	unset($_SESSION['product-error']);
+	?>
 
 	<table>
 		<th>id</th>
@@ -38,6 +45,7 @@ function getProducts($conn)
 		<th>price</th>
 		<th>color</th>
 		<th>quantity</th>
+		<th>action</th>
 
 		<?php
 
@@ -53,6 +61,13 @@ function getProducts($conn)
 				<td><?php echo $row['price']; ?></td>
 				<td><?php echo $row['color']; ?></td>
 				<td><?php echo $row['quantity']; ?></td>
+				<td>
+					<a href="product-edit-pre-action.php?product_id=<?php echo $row['id'];?>">
+						edit
+					</a>
+
+
+				</td>
 		<?php
 				echo "</tr>";
 			}

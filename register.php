@@ -7,7 +7,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet"  href="/suju_labs/fashion_store/css/styles.css">
+	<link rel="stylesheet"  href="fashion-store/css/styles.css">
 	<title>Register form |Sujata Fashion Store</title>
 
 </head>
