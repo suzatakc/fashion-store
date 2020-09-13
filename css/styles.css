@@ -6,11 +6,10 @@
 .form-container{
 	margin: 0 auto;
 	min-height: 20px;
-	width: 500px;
+	width: 505px;
 }
 
 .btn-submit{
-
 	width: 100%;
 	background-color:yellow;
 	color: black;
