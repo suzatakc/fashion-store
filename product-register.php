@@ -18,14 +18,14 @@ if (!isset($_SESSION['name'])) {
 
 <body>
     <form action="product-register-action.php" method="post">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required>
-        <label for="color">Color</label>
-        <input type="text" name="color" id="color" required>
-        <label for="quantity">Quantity</label>
-        <input type="text" name="quantity" id="quantity" required>
-        <label for="price">Price</label>
-        <input type="text" name="price" id="price" required>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required> <br><br>
+        <label for="color">Color:</label>
+        <input type="text" name="color" id="color" required><br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="text" name="quantity" id="quantity" required><br><br>
+        <label for="price">Price:</label>
+        <input type="text" name="price" id="price" required><br><br>
         <button type="submit">Submit</button>
         <button type="reset">reset form</button>
     </form>

@@ -25,6 +25,7 @@ function getProducts($conn)
 	<ul>
 		<li>Homepage</li>
 		<li><a href="logoutaction.php"> Logout</a></li>
+		<li><a href="product-register.php">Product-register</a></li>
 	</ul>
 
 	<h1>Welcome to homepage.<br><?php echo ($_SESSION['name']); ?></h1>
@@ -65,13 +66,14 @@ function getProducts($conn)
 					<a href="product-edit-pre-action.php?product_id=<?php echo $row['id'];?>">
 						edit
 					</a>
-
-
 				</td>
+			
 		<?php
 				echo "</tr>";
 			}
 		}
+
+		
 		?>
 	</table>
 

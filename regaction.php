@@ -22,7 +22,7 @@ if ($_SESSION['name'] = $name  && $_SESSION['password'] = $password){
 }
 else{
 
-	$_SESSION["login_error"] = " Wrong input !!<br>  Please Try Again !!! ";
+	$_SESSION["register_error"] = " Wrong input !!<br>  Please Try Again !!! ";
 	header("Location:register.php");
 }
 

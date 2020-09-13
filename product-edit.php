@@ -26,15 +26,15 @@ if (isset($_SESSION['product'])) {
 <body>
    
     <form action="product-register-action.php" method="post">
-        <input type="hidden" name="id" id="id" value="<?php echo($product['id'])?>">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required value="<?php echo($product['name'])?>">
-        <label for="color">Color</label>
-        <input type="text" name="color" id="color" required value="<?php echo($product['color'])?>" >
-        <label for="quantity">Quantity</label>
-        <input type="text" name="quantity" id="quantity" required value="<?php echo($product['quantity'])?>">
-        <label for="price">Price</label>
-        <input type="text" name="price" id="price" required value="<?php echo($product['price'])?>">
+        <input type="hidden" name="id" id="id" value="<?php echo($product['id'])?>"><br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required value="<?php echo($product['name'])?>"><br>
+        <label for="color">Color:</label>
+        <input type="text" name="color" id="color" required value="<?php echo($product['color'])?>" ><br>
+        <label for="quantity">Quantity:</label>
+        <input type="text" name="quantity" id="quantity" required value="<?php echo($product['quantity'])?>"><br>
+        <label for="price">Price:</label>
+        <input type="text" name="price" id="price" required value="<?php echo($product['price'])?>"><br>
         <button type="submit">Submit</button>
         <button type="reset">reset form</button>
     </form>
