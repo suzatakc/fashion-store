@@ -1,20 +1,23 @@
-.container {
+git .container {
 	width: 100%;
 	background-color: #e6e1e1;
 	padding: 20px 0;
 }
 .form-container{
-	margin: 0 auto;
-	min-height: 20px;
-	width: 505px;
+	margin: 17px auto;
+    min-height: 20px;
+    width: 505px;
+    border: 1px solid;
+    padding: 30px;
 }
 
 .btn-submit{
-	width: 100%;
-	background-color:yellow;
-	color: black;
-	border:1px solid;
-	margin: 10px;
+	width: 89%;
+    background-color: yellow;
+    color: black;
+    border: 1px solid;
+    margin: 20px;
+    border-radius: 3px;
 }
 
 body{
