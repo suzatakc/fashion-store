@@ -4,7 +4,7 @@
 	padding: 20px 0;
 }
 .form-container{
-	margin: 17px auto;
+    margin: 17px auto;
     min-height: 20px;
     width: 505px;
     border: 1px solid;
@@ -12,7 +12,7 @@
 }
 
 .btn-submit{
-	width: 89%;
+    width: 89%;
     background-color: yellow;
     color: black;
     border: 1px solid;
@@ -25,18 +25,18 @@ background-color: #e6e1e1;
 }
 
 .error {
-	background: red;
+    background: red;
     padding: 10px;
     color: #fff;
 
 }
 .reg{
-	width: 100%;
+    width: 100%;
     padding: 70px 0;
     background-color: #e6e1e1;
 }
 .form-reg{
-	margin: 0 auto;
+    margin: 0 auto;
     min-height: 10px;
     width: 502px;
     border: 1px solid black;
