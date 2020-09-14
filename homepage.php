@@ -19,6 +19,7 @@ function getProducts($conn)
 
 <head>
 	<title>Homepage | Sujata fashion store</title>
+	<link rel="stylesheets" href="/fashion-store/css/styles.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@ function getProducts($conn)
 		<th>color</th>
 		<th>quantity</th>
 		<th>action</th>
-
+		<th>remove</th>
 		<?php
 
 		$result = getProducts($conn);
@@ -63,17 +64,22 @@ function getProducts($conn)
 				<td><?php echo $row['color']; ?></td>
 				<td><?php echo $row['quantity']; ?></td>
 				<td>
-					<a href="product-edit-pre-action.php?product_id=<?php echo $row['id'];?>">
+					<a href="product-edit-pre-action.php?product_id=<?php echo $row['id']; ?>">
 						edit
 					</a>
 				</td>
-			
+				<td>
+					<a href="product-remove-action.php?product_id=<?php echo $row['id']; ?>">
+						delete
+					</a>
+				</td>
+
 		<?php
 				echo "</tr>";
 			}
 		}
 
-		
+
 		?>
 	</table>
 

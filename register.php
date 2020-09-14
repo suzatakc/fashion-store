@@ -1,7 +1,6 @@
 <?php
-// Start the session
+include('dbconnection.php');
 session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -17,14 +16,7 @@ session_start();
 	<div class="reg">
 		<div class="form-reg">
 
-			<?php
-			if (isset($_SESSION['login_error'])) {
 
-				echo ("<p class='error'>" . $_SESSION['login_error'] . "</p>");
-				unset($_SESSION['login_error']);
-			}
-
-			?>
 			<form action="regaction.php" method="POST">
 				<label>Username:</label>
 				<input type="text" name="name" required>

@@ -1,4 +1,4 @@
-git .container {
+.container {
 	width: 100%;
 	background-color: #e6e1e1;
 	padding: 20px 0;
@@ -47,4 +47,36 @@ background-color: #e6e1e1;
     background-color: #a7a7ef;
     border: 3px solid lightgoldenrodyellow;
     margin: 0px;
+}
+.product{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #e6e1e1;
+}
+.product-form{
+    border: 1px solid black;
+    margin: 5px auto;
+    min-height: 20px;
+    width: 300px;
+    background-color: #e6e1e1;
+    padding: 20px;
+}
+.btn-product{
+    width: 40%;
+    background-color:  #2196F3;
+    border-radius: 10px;
+    padding: 5px;
+}
+.delete-form{
+    width: 126%;
+    background-color: #f44336bf;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.btn-delete{
+    margin: 0px 0px 6px 65px;
+    padding: 5px 46px;
+    border: 2px solid black;
+    background-color: #03a9f4e6;
+    border-radius: 9px;
 }

@@ -17,5 +17,5 @@ if ($result->num_rows > 0) {
     $_SESSION["product_not_found"] = true;
 }
 
-header("Location:product-edit.php");
+header("Location:product-remove.php");
 $conn->close();

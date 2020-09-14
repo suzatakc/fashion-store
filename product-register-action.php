@@ -6,8 +6,6 @@ if (!isset($_SESSION['name'])) {
     header("Location:index.php");
 }
 
-
-
 $name = $_POST['name'];
 $color = $_POST['color'];
 $quantity = $_POST['quantity'];
