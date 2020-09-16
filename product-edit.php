@@ -27,20 +27,20 @@ if (isset($_SESSION['product'])) {
 <body>
     <div class="product">
 
-    <form action="product-update.php" method="post" class="product-form">
-        <label for="id">Id:</label>
-        <input type="text" name="id" id="id" value="<?php echo ($product['id']) ?>"><br><br>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required value="<?php echo ($product['name']) ?>"><br><br>
-        <label for="color">Color:</label>
-        <input type="text" name="color" id="color" required value="<?php echo ($product['color']) ?>"><br><br>
-        <label for="quantity">Quantity:</label>
-        <input type="text" name="quantity" id="quantity" required value="<?php echo ($product['quantity']) ?>"><br><br>
-        <label for="price">Price:</label>
-        <input type="text" name="price" id="price" required value="<?php echo ($product['price']) ?>"><br><br>
-        <button type="submit" class="btn-product">Submit</button>
-        <button type="reset" class="btn-product">reset form</button>
-    </form>
+        <form action="product-update.php" method="post" class="product-form">
+            <label for="id">Id:</label>
+            <input type="text" name="id" id="id" value="<?php echo ($product['id']) ?>"><br><br>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required value="<?php echo ($product['name']) ?>"><br><br>
+            <label for="color">Color:</label>
+            <input type="text" name="color" id="color" required value="<?php echo ($product['color']) ?>"><br><br>
+            <label for="quantity">Quantity:</label>
+            <input type="text" name="quantity" id="quantity" required value="<?php echo ($product['quantity']) ?>"><br><br>
+            <label for="price">Price:</label>
+            <input type="text" name="price" id="price" required value="<?php echo ($product['price']) ?>"><br><br>
+            <button type="submit" class="btn-product">Submit</button>
+            <button type="reset" class="btn-product">reset form</button>
+        </form>
     </div>
 </body>
 

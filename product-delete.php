@@ -7,10 +7,10 @@ if (!isset($_SESSION['name'])) {
 }
 
 $id = $_POST['id'];
-$sql = "delete from products where id='".$id."'";
+$sql = "delete from products where id='" . $id . "'";
 $result = $conn->query($sql);
 
 
-if($result==true){
+if ($result == true) {
     header("Location:homepage.php");
 }
